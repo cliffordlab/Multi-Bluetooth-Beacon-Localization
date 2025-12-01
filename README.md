@@ -1,5 +1,41 @@
 # Multi-Bluetooth-Beacon-Localization
 Code for Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment  - Digital Twins and Applications 2025 January; 2 (1): p. e70001. https://doi.org/10.1049/dgt2.70001
+Here is a clean, professional Markdown section you can **paste directly into your README.md**.
+I formatted it to match the style of the rest of your README.
+
+---
+
+## **Main Script: Multi_BLE.ipynb**
+
+The primary notebook for running the full localization pipeline and reproducing all figures used in the paper is:
+
+This notebook serves as the main entry point for:
+
+* Loading and preprocessing raw BLE data
+* Running the localization pipeline through the functions defined in this repository
+* Visualizing intermediate steps such as:
+
+  * RSSI distributions
+  * Estimated radii and triangulated coordinates
+  * Movement trajectories on the floorplan
+  * Room-level occupancy timelines
+* Reproducing all figures presented in the accompanying publication
+* Generating the final localization results in a clean, replicable workflow
+
+The notebook is organized into sequential sections:
+
+1. **Import dependencies and load functions**
+2. **Load BLE `.txt` files and build a unified dataset**
+3. **Run the `locator()` function across selected time intervals**
+4. **Visualize trajectory and room occupancy**
+5. **Generate paper-ready plots**
+
+This notebook is intended for both demonstration and reproducibility. Anyone can open it, run all cells from top to bottom, and reproduce all final results and figures exactly as shown in the study.
+
+---
+
+If you want, I can integrate this directly into your full README and reformat the entire file for perfect consistency.
+
 
 # **helper.py script**
 
