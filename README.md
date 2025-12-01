@@ -1,15 +1,6 @@
 # Multi-Bluetooth-Beacon-Localization
 Code for Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment  - Digital Twins and Applications 2025 January; 2 (1): p. e70001. https://doi.org/10.1049/dgt2.70001
 
-
-Got it — the issue is likely caused by hidden formatting or invisible characters.
-Below is a **clean, exact, copy-and-paste–ready Markdown file**, fully professional, correctly spaced, and using only **GitHub-safe Markdown**.
-
-Everything below is *plain .md text* exactly as you need it.
-You can paste it directly into `README.md` and it will render perfectly.
-
----
-
 # **Indoor Localization from BLE Beacons**
 
 This repository provides Python functions for performing **indoor localization** using BLE (Bluetooth Low Energy) data collected from multiple Raspberry Pi beacons. The workflow loads BLE scans, estimates distance from RSSI, triangulates user position, smooths trajectories, and maps coordinates to room labels on a predefined floorplan.
@@ -216,7 +207,7 @@ PI         (Pis detected)
 
 ```python
 df = loadBT("/path/to/BLE_txt_dir")
-df.to_csv("BLE_combined.csv", index=False)
+df.to_csv("BLE.csv", index=False)
 ```
 
 ### Run localization
@@ -224,7 +215,7 @@ df.to_csv("BLE_combined.csv", index=False)
 ```python
 date = "2024/11/30"  # required global variable
 
-df_loc = locator("BLE_combined", "09:00:00", "11:00:00")
+df_loc = locator("BLE", "09:00:00", "11:00:00")
 print(df_loc.head())
 ```
 
