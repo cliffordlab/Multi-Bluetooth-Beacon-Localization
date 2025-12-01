@@ -1,7 +1,7 @@
 # Multi-Bluetooth-Beacon-Localization
 Code for Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment  - Digital Twins and Applications 2025 January; 2 (1): p. e70001. https://doi.org/10.1049/dgt2.70001
 
-# **Indoor Localization from BLE Beacons**
+# **Indoor Localization from BLE Beacons -- helper.py**
 
 This repository provides Python functions for performing **indoor localization** using BLE (Bluetooth Low Energy) data collected from multiple Raspberry Pi beacons. The workflow loads BLE scans, estimates distance from RSSI, triangulates user position, smooths trajectories, and maps coordinates to room labels on a predefined floorplan.
 
