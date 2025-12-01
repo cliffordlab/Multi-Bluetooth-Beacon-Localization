@@ -37,7 +37,7 @@ This notebook is intended for both demonstration and reproducibility. Anyone can
 If you want, I can integrate this directly into your full README and reformat the entire file for perfect consistency.
 
 
-# **helper.py script**
+## **helper.py script**
 
 This repository provides Python functions for performing **indoor localization** using BLE (Bluetooth Low Energy) data collected from multiple Raspberry Pi beacons. The workflow loads BLE scans, estimates distance from RSSI, triangulates user position, smooths trajectories, and maps coordinates to room labels on a predefined floorplan.
 
