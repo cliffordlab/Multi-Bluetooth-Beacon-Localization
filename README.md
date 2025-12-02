@@ -2,17 +2,17 @@
 When using this code, or derivatives of this code (under the BSD3 license terms), please cite:
 Saghafi S, Kiarashi Y, Rodriguez AD, Levey AI, Kwon H, Clifford GD. Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment. Digit Twins Appl. 2025 Jan-Dec;2(1):e70001. doi: 10.1049/dgt2.70001. Epub 2025 Mar 7. PMID: 40735132; PMCID: PMC12305822.
 
-An open access versions of the articel can be found 
+An open access versions of the article can be found 
 here: https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/dgt2.70001  
 and here: https://pmc.ncbi.nlm.nih.gov/articles/PMC12305822/
 
-The notebook `Multi_BLE.ipynb` reproduces all figures and analyses presented in the paper.
+Abstract describing the research relevant to the code: Bluetooth low energy (BLE)-based indoor localization has been extensively researched due to its cost-effectiveness, low power consumption, and ubiquity. Despite these advantages, the variability of received signal strength indicator (RSSI) measurements, influenced by physical obstacles, human presence, and electronic interference, poses a significant challenge to accurate localization. In this work, we present an optimised method to enhance indoor localization accuracy by utilising multiple BLE beacons in a radio frequency (RF)-dense modern building environment. Through a proof-of-concept study, we demonstrate that using three BLE beacons reduces localization error from a worst-case distance of 9.09-2.94 m, whereas additional beacons offer minimal incremental benefit in such settings. 
+
+The notebook `Multi_BLE.ipynb` reproduces all figures and analyses presented in the above research article.
 
 ---
 
 ### 1️⃣ Main script section for `Multi_BLE.ipynb`
-
-Add this somewhere after *Workflow Overview* or after *Function Reference*:
 
 ```markdown
 ## **Main Script: Multi_BLE.ipynb**
@@ -44,8 +44,6 @@ To reproduce the results and figures, open `Multi_BLE.ipynb` in Jupyter (or VS C
 ---
 
 ### 2️⃣ Licensing / BSD3 compatibility note
-
-You can add this as a separate section near the end of the README (e.g., after *Assumptions and Limitations*):
 
 ```markdown
 ## **Licensing and Dependency Compatibility**
