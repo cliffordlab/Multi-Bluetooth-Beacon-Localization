@@ -1,7 +1,10 @@
 # Multi-Bluetooth-Beacon-Localization
-Code for Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment  - Digital Twins and Applications 2025 January; 2 (1): p. e70001. https://doi.org/10.1049/dgt2.70001.
+When using this code, or derivatives of this code (under the BSD3 license terms), please cite:
+Saghafi S, Kiarashi Y, Rodriguez AD, Levey AI, Kwon H, Clifford GD. Indoor Localization Using Multi-Bluetooth Beacon Deployment in a Sparse Edge Computing Environment. Digit Twins Appl. 2025 Jan-Dec;2(1):e70001. doi: 10.1049/dgt2.70001. Epub 2025 Mar 7. PMID: 40735132; PMCID: PMC12305822.
 
-Here also you can find the version of the manuscript that has been submitted to the journal: [https://drive.google.com/drive/folders/1SJFDhehPh_iHVA7WXHces0_byIlL7xYn?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/drive/folders/1SJFDhehPh_iHVA7WXHces0_byIlL7xYn?dmr=1&ec=wgc-drive-globalnav-goto).
+An open access versions of the articel can be found 
+here: https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/dgt2.70001  
+and here: https://pmc.ncbi.nlm.nih.gov/articles/PMC12305822/
 
 The notebook `Multi_BLE.ipynb` reproduces all figures and analyses presented in the paper.
 
